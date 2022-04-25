@@ -6,7 +6,6 @@ const createAppTitle = (title) => {
 
     return appTitle;
 }
-
 const createTodoForm = () => {
     const form = document.createElement('form');
     const input = document.createElement('input');
