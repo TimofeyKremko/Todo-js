@@ -23,7 +23,7 @@ const createTodoForm = () => {
     input.placeholder = 'Введите название дела';
     addButton.classList.add('btn', 'btn-primary');
     wrapper.classList.add('input-group-append');
-    addButton.textContent = 'Добавит дело';
+    addButton.textContent = 'Добавить дело';
 
     wrapper.append(addButton);
     form.append(input);
